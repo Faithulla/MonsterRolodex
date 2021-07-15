@@ -5,8 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(208, 18, 18, 0.993) 0%,
+    rgb(24, 18, 197) 100%
+  );
 }
-
+h1{
+   font-family: 'Bigelow Rules', cursive;
+   font-size: 82px;
+   color: #0ccac4;
+   margin-left: 75vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
